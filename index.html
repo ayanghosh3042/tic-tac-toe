@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1 id="titel">noughts and crosses</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="00" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+            <div id="01" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+            <div id="02" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+    
+            <div id="10" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+            <div id="11" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+            <div id="12" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+            
+            <div id="20" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+            <div id="21" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+            <div id="22" class="box" onClick="turn(this.id)">
+                <div class="in"></div>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="score">
+                <div class="cross" id="pic_x"></div>
+                <div class="num" id="x"></div>
+            </div>
+            <div class="score">
+                <div class="circle"></div>
+                <div class="num" id="o"></div>
+            </div>
+        </div>
+
+    </main>
+
+
+</body>
+<script src="index.js"></script>
+</html>
